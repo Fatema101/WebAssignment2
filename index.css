@@ -1,0 +1,186 @@
+body{
+    margin:0px;
+}
+.logo .first-span{
+    color: aliceblue;
+    font-size:27px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo .second-span{
+    color: aliceblue;
+    font-size:14px;
+}
+header{
+    border: 1px solid black;
+    background-image: url('pic/Man.jpeg');
+    height: 510px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-container{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between ;
+  
+}
+nav{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo {
+    margin-top: 13px;
+    margin-left: 13px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+.flex-container ul{
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+}
+.xyz{
+    
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+.flex-container a{
+    display: inline-block;
+    margin-right: 25px;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 15px ;
+}
+.Button a{
+   
+    display: block;
+    border: 1px solid aliceblue;
+    border-radius:20px ;
+    height: 15px;
+    padding: 12px;
+}
+
+.headlower{
+    height:450px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headlower p:nth-child(1){
+    font-size:medium;
+    font-style: italic;
+}
+.headlower p:nth-child(2){
+    font-size: 80px;
+   
+}
+.headlower p a{
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid rgb(40, 188, 188);
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color:rgb(40,188,188) ;
+}
+.headlower p:nth-child(3) {
+     padding-bottom: 80px;
+}
+.headlower p {
+    margin: 8px 0;
+  }
+
+.middlediv{
+    margin-top: 9px;
+    height: 250px;
+    text-align: center;
+}
+.middlediv p:nth-child(1){
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.middlediv p:nth-child(3){
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.middlediv p:nth-child(4){
+   font-style: italic;
+}
+.lowerdiv{
+    display: flex;
+}
+.lowerdiv1{
+    width:27%;
+    height:450px;
+    overflow: hidden;
+}
+.lowerdiv1 img{
+    width:100%;
+    height:230px;
+    display: block;
+}
+.lowerdiv1 p{
+    margin-top:25px;
+    text-align: center;
+}
+.lowerdiv1 p:nth-child(2){
+    color:rgb(93, 168, 168);
+}
+.lowerdiv1 p a{
+    color:rgb(93, 168, 168);
+}
+.lowerdiv div:nth-child(1){
+    margin-left: 22%;
+}
+.lowerdiv div:nth-child(2){
+    margin-left: 5%;
+}
+.finalnav{
+    margin: 0px ;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 70px;
+   background-color:#4C4E52;
+}
+.icon-div{
+    height:30px;
+    width:30px;
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.icon-div a{
+    color:black;
+}
+.finaldiv{
+    background-color: rgb(20, 19, 19);
+    margin: 0px;
+    height: 150px;
+}
+.finaldiv p{
+    margin:0px;
+    color: rgba(255, 255, 255, 0.662);
+    text-align: center;
+}
+.finaldiv p:nth-child(1){
+    font-size:11px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.finaldiv p:nth-child(2){
+    color:grey;
+    font-size: 12px;
+}
+
